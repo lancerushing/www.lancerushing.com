@@ -1,0 +1,10 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Lance Rushing"
+theme: "lancerushing"
+enableGitInfo: true
+
+# Google Analytics tracking
+googleAnalytics: ""
+
+
