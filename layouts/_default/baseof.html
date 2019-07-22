@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	
+	{{- partial "structured-data.html" . }}
+	
+	<title>{{.Title}}</title>
+	{{ range .AlternativeOutputFormats -}}
+		{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+
+    {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "css/style.css" . | toCSS | minify | fingerprint -}}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
+
+
+	{{- block "head" . -}}{{- end }}
+	
+	
+</head>
+
+<body id="page">
+	{{ block "header" . -}}{{ end -}}
+	{{ block "main" . -}}{{ end -}}
+	{{ block "footer" . -}}{{ end }}
+	{{ template "_internal/google_analytics_async.html" . }}
+</body>
+
+</html>
