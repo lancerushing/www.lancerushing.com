@@ -1,5 +1,5 @@
 ---
-title: "Use Yaml With Hugo"
+title: Use Yaml With Hugo
 description: ''
 author: ''
 date: 2018-06-30T05:12:59.000Z
@@ -13,9 +13,11 @@ Using YAML with HUGO is a breeze. Hugo has supported yaml since 2013. and while 
 
 ## Thoughts on switching
 
+
+
 Negatives: A lot of hugo documentation uses toml.
 
-Postitives: Yaml seems to be winning the configuration language (2018).  And I am using Yaml with other projects.  Hugo, is the only project I use that defaults to toml.
+Postitives: Yaml seems to be winning the markdown language (2018).  And I've been having to use Yaml with other projects.  Hugo, is the only project I use that defaults to toml.
 
 ## First, change your config.toml to config.yaml.
 
