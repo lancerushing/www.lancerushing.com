@@ -11,6 +11,7 @@ deploy:
 	aws --profile lance s3 sync --delete public/ s3://www.lancerushing.com/
 
 dev:
+	open "http://localhost:1313/"
 	hugo server -D
 
 version:

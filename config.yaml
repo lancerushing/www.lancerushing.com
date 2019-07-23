@@ -1,10 +1,28 @@
 baseURL: "/"
 languageCode: "en-us"
 title: "Lance Rushing"
-theme: "lancerushing"
 enableGitInfo: true
 
 # Google Analytics tracking
-googleAnalytics: ""
+googleAnalytics: "UA-20826918-1"
 
+## https://gohugo.io/content-management/syntax-highlighting/
+pygmentsCodeFences: true
 
+menu:
+  main:
+    - name: Posts
+      url: posts/
+      weight: 10
+    - name: About
+      url: about/
+      weight: 20
+    - name: Contact
+      url: contact/
+      weight: 20
+
+params:
+  dateform: 'Jan 2, 2006'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04 -0700'
