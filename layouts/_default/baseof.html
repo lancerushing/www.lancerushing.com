@@ -15,19 +15,20 @@
 		{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "css/style.css" . | toCSS | minify | fingerprint -}}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
-
 
 	{{- block "head" . -}}{{- end }}
 	
 	
 </head>
 
-<body id="page">
-	{{ block "header" . -}}{{ end -}}
+<body>
+	{{- partial "header.html" . -}}	
 	{{ block "main" . -}}{{ end -}}
-	{{ block "footer" . -}}{{ end }}
+	{{- partial "footer.html" . -}}	
 	{{ template "_internal/google_analytics_async.html" . }}
 </body>
 
