@@ -16,10 +16,16 @@ menu:
       weight: 10
     - name: About
       url: about/
-      weight: 20
+      weight: 30
     - name: Contact
       url: contact/
+      weight: 30
+    - name: Soccer
+      url: soccer/
       weight: 20
+
+Author:
+  Name: Lance Rushing
 
 params:
   dateform: 'Jan 2, 2006'
