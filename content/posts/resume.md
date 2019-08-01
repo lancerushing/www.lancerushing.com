@@ -1,4 +1,15 @@
-# LANCE SCOTT RUSHING 
+---
+title: "Lance Rushing's Resume"
+description: ''
+author: 'Lance Rushing'
+date: 2019-07-31
+tags: []
+draft: false
+---
+
+
+
+# Lance Scott Rushing
 
 1076 Granada Way Chula Vista, CA 91910 <br>
 lancerushing@gmail.com <br>
