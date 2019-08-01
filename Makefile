@@ -12,6 +12,10 @@ build:
 deploy:
 	aws --profile lance s3 sync --delete public/ s3://www.lancerushing.com/
 
+qa:
+	hugo server -b http://$(IP_ADDRESS) --bind $(IP_ADDRESS) 
+
+
 dev:
 	#open "http://localhost:1313/"
 	hugo server -D -b http://$(IP_ADDRESS) --bind $(IP_ADDRESS) 
