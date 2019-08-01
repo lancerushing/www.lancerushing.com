@@ -81,4 +81,12 @@ code {
     font-size: 85%;
   }
 
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
   

@@ -1,11 +1,13 @@
 
 {{ define "main" }}
 	<article>
-			{{- .Title | markdownify -}}
+		
+<div class="post-meta no-print">
+    
+    {{- .Title | markdownify -}}
 			
-			{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "datefmt") }}
+    {{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "datefmt") }}
 
-<div class="post-meta">
     {{/* Display the date if set */}}
     {{- if not .Date.IsZero -}}
     Date &#x5b;
@@ -29,8 +31,8 @@
 </div>
 
 
-			<div class="content">
-			{{ .Content }}
+        <div class="content">
+            {{ .Content }}
 		</div>
 	</article>
 {{ end }}
