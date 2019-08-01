@@ -7,8 +7,15 @@ tags: []
 draft: false
 ---
 
+<style>
 
+h3 {
+    border-top: 1px solid darkgray;
+    padding-top: 15px;
+}
+</style>
 
+<img src="https://en.gravatar.com/userimage/9332504/85dc2f4d715b8c750544d4a8c6586743.png?size=200" align="right" />
 # Lance Scott Rushing
 
 1076 Granada Way Chula Vista, CA 91910 <br>
@@ -31,56 +38,65 @@ Department of  Geography — Behavioral Geography / GIS Concentration
 
 ## Experience
 
-### Vice President of Technology &mdash; January 2019 - July 2019<br>Search Optics LLC San Diego, CA 
-Technology leadership for the parent company of UPTRACS INC. Primary goal to bring successful ECS/Docker implementation to existing products, to reduce complexity, and increase AWS asset efficiency. Responsibilities: 
+### Vice President of Technology <small>January 2019 - July 2019</small><br>Search Optics LLC San Diego, CA 
+Technology leadership for the parent company of UPTRACS INC. Primary goal to bring successful ECS/Docker implementation to existing products, to reduce complexity, and increase AWS asset efficiency. 
 
+#### Responsibilities: 
 * Manage team of 6 developers 
 * Develop new application development and operation processes 
 * Work directly with owners to plan and implement new products 
-* Conduct interviews and make hiring decisions Technology Highlights: 
+* Conduct interviews and make hiring decisions 
+
+#### Technology Highlights: 
 * Vehicle inventory system with 1.2 million vehicles. MySQL with Elasticsearch 
 * CMS application backed by CouchDB and Elasticsearch 
 * Deployments managed with Bamboo 
 * AWS Infrastructure - 6 Regions, >100 EC2 instances 
 * iOS / Android applications (Cordova with angular 1.x) 
 
-### Vice President of Technology &mdash; August 2011 - Januaray 2019 <br>UPTRACS INC San Diego, CA 
-Personally led creation of new marketing/campaign performance analytic application for Search Optics. The successful new application created a new company: UPTRACS. Started as an outside consultant, then Architect, then Director of Technology, then VP of Technology. Responsibilities: 
+### Vice President of Technology <small>August 2011 - January 2019</small><br>UPTRACS INC San Diego, CA 
+Personally created new marketing/campaign performance application for Search Optics. The successful new application used to created new company: UPTRACS. Started as a Consultant, then Architect, then Director of Technology, then VP of Technology.
 
+#### Responsibilities: 
 * Manage team of 5 (3 developers and 2 QA/product support specialists) 
 * Approximately 50% of time acting as Lead Developer
 * Conduct interviews and make hiring decisions 
 * Oversee training curriculum 
-* Approve all development activities Product Highlights: 
+* Approve all development activities 
+
+#### Product Highlights: 
 * Analytics tracking for 4,000+ domains 
 * System manages 42,000 marketing phone numbers. 
 * Integrated with multiple phone/call providers. (Avanser, CallMetrics, CallSource, Calltracks, Dialoga, DIDWW, DirectCall, Plivo, Twilio) 
-* Serving customers in United States, Canada, Brazil, Australia, Ireland, and Mexico 
-* Localization support (l10n) for 7 locales Technology Highlights: 
+* Serving customers in the United States, Canada, Brazil, Australia, Ireland, and Mexico 
+* Localization support (l10n) for 7 locales 
+
+#### Technology Highlights: 
 * Applications are 100% hosted on Amazon Web Services. 
-* We utilize EC2, ECS. RDS, S3, Cloud Front, RDS, ElastiCache, Cloud Watch, CloudFormation, SQS, SWF 
+* We utilize EC2, ECS. RDS, S3, CloudFront, RDS, ElastiCache, Cloud Watch, CloudFormation, SQS, SWF 
 * Pre-ECS . Averaging 19 EC2 instances running at peak time. 
 * Post-ECS Averaging 5 ECS2 instances running at peak time. 
 * Frontend: Bootstrap css and Angular 1.6 
-* Backend is PHP 7.2 with Postgresql databases 
+* Backend: PHP 7.3 with Postgresql 
 * “Push button” deployment via packaging applications into RPMs and distributing to servers via yum, now using AWS ECR to deploy to ECS. 
 * Frontend and Backend testing with ProtractorJS and PHPUnit respectively 
 
-### Senior Software Developer &mdash; January 2008 - July 2011 <br>Bridgepoint Education San Diego, CA 
-Member of a specially assembled research and developer team to create a company wide programming framework and methodology. Personal Accomplishments: 
+### Senior Software Developer <small>January 2008 - July 2011</small><br>Bridgepoint Education San Diego, CA 
+Member of a specially assembled research and developer team to create a company wide programming framework and methodology. 
 
+#### Personal Accomplishments: 
 * Created VMWare LAMP (RHEL 5.2) development environment. 
 * Developed code coverage and unit testing standards for PHP software using xDebug and phpUnit 
 * Wrote custom unit testing framework to assist developers in choosing which tests to run, and debug failing test. 
 * Assisted with coding standard ‘sniffs’ using phpCS 
 * Created an ant build script system to simplify testing and distributing 
-* Co-administered continuous integration servers (2): 
+* Co-administered continuous integration servers (2)
 * phpUnderControl on top of Cruise Control 
 * Distributed builds with Cruise Control 
 * Researched competing CI products (TeamCity, Bamboo and Hudson) 
 * Co-defined Software Development Lifecycle patterns 
 
-### Consultant, Application, Database & Systems Engineeer &mdash; November 2005 - June 2008<br>San Diego Padres (Consultant) San Diego, CA 
+### Consultant, Application, Database & Systems Engineer <small>November 2005 - June 2008</small><br>San Diego Padres (Consultant) San Diego, CA 
 Created custom web application baseball statistical analysis tool kit for the San Diego Padres. Also created a custom windows desktop application for remote scouting data collection. 
 
 * PHP5 server with PostgreSQL DB running on SUSE/Ubuntu Linux 
@@ -92,28 +108,30 @@ Created custom web application baseball statistical analysis tool kit for the Sa
 * Apace2.2 w/ SSL and WebDav(SVN) 
 * Setup SVN repository 
 * Maintain Edgewall Trac knowledge base and ticketing system 
-* Windows Scoutin appliation is WxPython / SQLite based 
+* Windows baseball scouting data application: WxPython / SQLite based 
 * Automatic Updates 
 * Database Synchronization 
 * Automatic error trapping, logging, and online reporting. 
 * Several WxPython windows utilities for keeping database up to date 
 * Daily import several Lotus Notes data sources via LotusODBC thru Ruby/Python. 
 
-### Manager of Software Development / IT Manager &mdash; October 2005 - January 2007<br>Super Warehouse San Diego, CA 
+### Manager of Software Development / IT Manager <small>October 2005 - January 2007</small><br>Super Warehouse San Diego, CA 
 Managed team of 4 application developers, and two IT infrastructure personnel. Responsible for interviewing and making hiring and termination recommendations. Reported directly to CEO/President. 
 
 * Coordinated, installed and maintained cluster of four Linux (Ubuntu) web servers, plus two static content servers (Ubuntu), two development/staging servers (Fedora/Ubuntu) and multiple MSSQL and IIS servers. 
 * Took over development and coordination all software development. All existing projects in Coldfusion v5. 
-* In process of striving to implement a formalized software development methodology and culture. (Leaning towards the Agile methodology Scrum.) 
+* Creation of formalized software development methodology and culture. (Leaning towards the Agile methodology Scrum.) 
 * Implemented software version control (SVN) system where none existed. 
 * Implemented issue tracking (phpBT) system where none existed. 
 * Created a software release process where none existed. Consisting of a development server, test server & two layers of QA processes. 
 * Google Adwords API integration. 
 * SOAP API integration with Salesforce.com (CRM), IngramMicro (Supplier) and TechData (Supplier) 
 
-### Application Engineer &mdash; July 2002 - October 2005<br>Cymer, Inc.(Consultant) San Diego, CA 
+### Application Engineer <small>July 2002 - October 2005</small><br>Cymer, Inc.(Consultant) San Diego, CA 
 Contract position to develop and assist IT department projects. 
-Primary responsibilty: Develop custom intranet application "Parametric Online Data (POD)" which collects assembly and testing data for all of Cymer’s Products. 
+
+#### Primary responsibility: 
+Develop custom intranet application "Parametric Online Data (POD)" which collects assembly and testing data for all of Cymer’s Products. 
 
 * PHP front-end with PostgreSQL back-end on Red Hat Enterprise Linux AS. 
 * Utilizing PHP OO code as appropriate 
@@ -131,12 +149,12 @@ Primary responsibilty: Develop custom intranet application "Parametric Online Da
 * Bug tracker integration 
 * Flat parsing 
 
-Secondary - Assist with other software projects. 
+#### Secondary Projects
 
 * ‘eLibrary’ - Wrote windows application to synchronize document repository used by field engineers 
 * ‘Siebel Attachment Extract’ - Enhance and maintain small VB6 program responsible for extracting Siebel attachments for later processing. 
 
-### Internet Application Engineer &mdash; June 2003 - March 2004 <br>Hotellocators Inc.(Consultant) San Diego, CA 
+### Internet Application Engineer <small>June 2003 - March 2004</small><br>Hotellocators Inc.(Consultant) San Diego, CA 
 Contract position to port existing high traffic hotel reservation site from WebDNA eBusiness Development Suite to PHP served on OSX, with PostgreSQL back-end and multi-threaded custom JAVA/Tomcat XMLHTTP client, connecting to XML feeds over VPN concentrator.
 
 * Complete rewrite of application. 
@@ -149,14 +167,14 @@ Contract position to port existing high traffic hotel reservation site from WebD
 * Credit card processing, security, and encryption. 
 * Custom caching techniques. 
 
-### Internet Application Consultant &mdash; November 2003 - January 2004 <br>Infrastructure Development Corporation San Diego, CA 
+### Internet Application Consultant <small>November 2003 - January 2004</small><br>Infrastructure Development Corporation /  U.S. Dept. of Navy  San Diego, CA 
 Contract position to document and bug track existing application for Navy/Marine Corps Intranet (NMCI) for U.S. Dept. of Navy
 
 * Implemented standardized programming documentation for several hundred files of code 
 * Used PHPDocumenter software to generate online and PDF manual of API. 
-* Reverse engineered many function to confirm functionality when originals programmers where no longer available. 
+* Reverse engineered many functions to confirm functionality when originals programmers where no longer available. 
 
-### Coldfusion Application Developer Feburary 2002 - June 2002 <br>Wells Fargo Phoenix, AZ 
+### Coldfusion Application Developer February 2002 - June 2002</small><br>Wells Fargo Phoenix, AZ 
 Contract position to develop custom intranet applications in Coldfusion for the Home Equity Division of Wells Fargo. Coldfusion front-end on NT4 with MS SQL 8 and Multi-homed DB2 on AIX. 
 Developed intranet application: "Vendor Invoice Processing" 
 
@@ -175,7 +193,7 @@ Created fully dynamic table maintenance library.
 * Designed to handle multiple database architectures. 
 * Modular, allowing one to call only parts of the library. 
 
-### Database Engineer / Systems Administrator / Senior Web Application Developer &mdash; November 1998 - Feburary 2002 <br>San Diego Daily Transcript San Diego, CA 
+### Database Engineer / Systems Administrator / Senior Web Application Developer <small>November 1998 - Februrary 2002</small><br>San Diego Daily Transcript San Diego, CA 
 
 * Database Engineer, Senior ColdFusion programmer, System Administrator for Solaris, Linux, NT/2000 servers. 
 * Co-developed the 3 public web servers serving over 150,000 pages of static content and 50 databases for dynamic content, 30 of which are modified on a daily basis. The largest database contains over a million records and growing. All with nearly 100% uptime. 
@@ -190,7 +208,7 @@ Created fully dynamic table maintenance library.
 * Streamlined input process for 30 databases, saving hundreds of man-hours per month. 
 * Created employee database with infinite permission layers for Intranet back-end, including authorization and employee activity logging. 
 
-### Database Application Programmer / Network Consultant &mdash; January 1995 November 1999 <br>Independent Contractor San Diego and Santa Barbara, CA
+### Database Application Programmer / Network Consultant <small>January 1995 November 1999</small><br>Independent Contractor San Diego and Santa Barbara, CA
 Specializing in database and cross application solutions. 
 
 * Created interface between Excel and legacy accounting software with VB, cutting input time from 30 minutes to 2 minutes while reducing data entry errors. 2000 
@@ -201,7 +219,7 @@ Specializing in database and cross application solutions.
 
 ## References
 
-* Avaiable upon request
+* Available upon request
  {{< hide >}}
 * **Valadimr Veytser**, Senior Engieer, Search Optics & Bridgepoint Education
 * **Mike Boscia**, Programmer, Cymer Inc. (858) 385-5543 - mboscia@cymer.com 
