@@ -11,6 +11,9 @@ tar xzvf hugo_extended_0.55.6_Linux-64bit.tar.gz
 sudo mv hugo /usr/local/bin
 
 
+sudo apt install dnsutils
+
+
 
  == Install Go
 

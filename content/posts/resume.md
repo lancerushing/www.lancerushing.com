@@ -23,13 +23,13 @@ lancerushing@gmail.com <br>
 (619) 252-5898 <br>
 
 ## Objective
-To obtain a permanent leadership position with a dynamic, hard working team utilizing my experience in delivering technology solutions. 
+To obtain a permanent leadership position with a dynamic, hard working team utilizing my experience in delivering cloud technology solutions. 
 
 ## Technical Summary
-* **Preferred Programming Languages:** Go, Python, PHP, Javascript, Java, C#, SQL. 
-* **Server Operating Systems:** Linux (Amazon Linux, Red Hat, Debian/Ubuntu, SUSE, Gentoo), BSD, UNIX (Solaris) 
+* **Preferred Programming Languages:** Go, Python, PHP, Javascript, C#, SQL. 
+* **Server Operating Systems:** Linux (Amazon Linux, Red Hat, Debian/Ubuntu), BSD 
 * **Database Experience:** PostgreSQL, MySQL, Redis, SQLite, DB2, MS SQL, Oracle, CouchDB, DynamoDB, ElasticSearch 
-* **Server Technologies:** Docker, Nginx, Apache , IIS, sshd, Postfix, qMail 
+* **Server Technologies:** Docker, Nginx, Apache , sshd, Postfix 
 * **Additional**: Git, Mercurial, CVS, SVN, Jenkins, Bamboo, Trac, TeamCity, WSGI, Google AppEngine, Amazon AWS, ColdFusion, Perl (5). 
 
 ## Education
@@ -38,33 +38,30 @@ Department of  Geography — Behavioral Geography / GIS Concentration
 
 ## Experience
 
-### Vice President of Technology <small>January 2019 - July 2019</small><br>Search Optics LLC San Diego, CA 
+### Principal Engineer / Vice President of Technology <small>August 2011 - July 2019</small><br>Search Optics LLC / UPTRACS Inc San Diego, CA 
 Technology leadership for the parent company of UPTRACS INC. Primary goal to bring successful ECS/Docker implementation to existing products, to reduce complexity, and increase AWS asset efficiency. 
-
-#### Responsibilities: 
-* Manage team of 6 developers 
-* Develop new application development and operation processes 
-* Work directly with owners to plan and implement new products 
-* Conduct interviews and make hiring decisions 
-
-#### Technology Highlights: 
-* Vehicle inventory system with 1.2 million vehicles. MySQL with Elasticsearch 
-* CMS application backed by CouchDB and Elasticsearch 
-* Deployments managed with Bamboo 
-* AWS Infrastructure - 6 Regions, >100 EC2 instances 
-* iOS / Android applications (Cordova with angular 1.x) 
-
-### Vice President of Technology <small>August 2011 - January 2019</small><br>UPTRACS INC San Diego, CA 
 Personally created new marketing/campaign performance application for Search Optics. The successful new application used to created new company: UPTRACS. Started as a Consultant, then Architect, then Director of Technology, then VP of Technology.
 
+#### Acheivements:
+* Created green field "UPTRACS" product, 100% cloud from day 1.
+* UPTRACS company created, which I had the honor of being employee #1
+* Monenernize leagacy  Search Optics applications that had been "lifted and shifted" to AWS.
+
 #### Responsibilities: 
-* Manage team of 5 (3 developers and 2 QA/product support specialists) 
-* Approximately 50% of time acting as Lead Developer
-* Conduct interviews and make hiring decisions 
+* Manage team of 6 developers
+* Create new application development and operation processes 
+* Work directly with company owners and department leaders to plan and implement new products 
+* Conduct interviews and make hiring decisions
 * Oversee training curriculum 
 * Approve all development activities 
 
+#### Technology Highlights: 
+* CI/CD managed with Bamboo 
+* AWS Infrastructure - 6 Regions, >100 EC2 instances 
+* iOS / Android applications (Cordova with angular 1.x) 
+
 #### Product Highlights: 
+* Vehicle inventory system with 1.2 million vehicles. MySQL with Elasticsearch 
 * Analytics tracking for 4,000+ domains 
 * System manages 42,000 marketing phone numbers. 
 * Integrated with multiple phone/call providers. (Avanser, CallMetrics, CallSource, Calltracks, Dialoga, DIDWW, DirectCall, Plivo, Twilio) 
@@ -74,12 +71,11 @@ Personally created new marketing/campaign performance application for Search Opt
 #### Technology Highlights: 
 * Applications are 100% hosted on Amazon Web Services. 
 * We utilize EC2, ECS. RDS, S3, CloudFront, RDS, ElastiCache, Cloud Watch, CloudFormation, SQS, SWF 
+* CMS application backed by CouchDB and Elasticsearch 
 * Pre-ECS . Averaging 19 EC2 instances running at peak time. 
 * Post-ECS Averaging 5 ECS2 instances running at peak time. 
 * Frontend: Bootstrap css and Angular 1.6 
 * Backend: PHP 7.3 with Postgresql 
-* “Push button” deployment via packaging applications into RPMs and distributing to servers via yum, now using AWS ECR to deploy to ECS. 
-* Frontend and Backend testing with ProtractorJS and PHPUnit respectively 
 
 ### Senior Software Developer <small>January 2008 - July 2011</small><br>Bridgepoint Education San Diego, CA 
 Member of a specially assembled research and developer team to create a company wide programming framework and methodology. 
