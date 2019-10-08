@@ -18,3 +18,4 @@
 public/
 resources/
 tmux-*.log
+.vscode/

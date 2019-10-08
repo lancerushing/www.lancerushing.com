@@ -15,7 +15,6 @@ h3 {
 }
 </style>
 
-<img src="https://en.gravatar.com/userimage/9332504/85dc2f4d715b8c750544d4a8c6586743.png?size=200" align="right" />
 # Lance Scott Rushing
 
 1076 Granada Way Chula Vista, CA 91910 <br>
@@ -135,68 +134,6 @@ Contract position to develop and assist IT department projects. Developed custom
 * ‘eLibrary’ - Wrote windows application to synchronize document repository used by field engineers 
 * ‘Siebel Attachment Extract’ - Enhance and maintain small VB6 program responsible for extracting Siebel attachments for later processing. 
 
-### Internet Application Engineer <small>June 2003 - March 2004</small><br>Hotellocators Inc.(Consultant) San Diego, CA 
-Contract position to port existing high traffic hotel reservation site from WebDNA eBusiness Development Suite to PHP served on OSX, with PostgreSQL back-end and multi-threaded custom JAVA/Tomcat XMLHTTP client, connecting to XML feeds over VPN concentrator.
-
-* Complete rewrite of application. 
-* 50,000 hotel reservation searches per day, with 1000 bookings. 
-* Multiple reservation sources. (Pegasus, BW Direct, In-House Net) 
-* Architecture changed to a module based system for hotel reservation sources. 
-* Multi-threaded XML feed processing from reservation sources. 
-* Custom reservation search result caching. 
-* ‘Sessionless’ PHP state tracking for better performance. 
-* Credit card processing, security, and encryption. 
-* Custom caching techniques. 
-
-### Internet Application Consultant <small>November 2003 - January 2004</small><br>Infrastructure Development Corporation /  U.S. Dept. of Navy  San Diego, CA 
-Contract position to document and bug track existing application for Navy/Marine Corps Intranet (NMCI) for U.S. Dept. of Navy
-
-* Implemented standardized programming documentation for several hundred files of code 
-* Used PHPDocumenter software to generate online and PDF manual of API. 
-* Reverse engineered many functions to confirm functionality when originals programmers where no longer available. 
-
-### Coldfusion Application Developer February 2002 - June 2002</small><br>Wells Fargo Phoenix, AZ 
-Contract position to develop custom intranet applications in Coldfusion for the Home Equity Division of Wells Fargo. Coldfusion front-end on NT4 with MS SQL 8 and Multi-homed DB2 on AIX. 
-Developed intranet application: "Vendor Invoice Processing" 
-
-* Processes over 60,000 items per month. 
-* Loads vendor invoices. 
-* Validates input format. 
-* Verifies data integrity to DB2 database. 
-* Creates printable check requests. 
-* Emails check requests. 
-* Maintains vendor-pricing matrix. 
-* Pricing matrix maintains data for every county/vendor combination for all of the United States. 
-* Application user security. 
-* Multi-level user permissions system. 
-Created fully dynamic table maintenance library. 
-* Library only requires a table name and data source passed to it to create a web interface for record maintenance. 
-* Designed to handle multiple database architectures. 
-* Modular, allowing one to call only parts of the library. 
-
-### Database Engineer / Systems Administrator / Senior Web Application Developer <small>November 1998 - Februrary 2002</small><br>San Diego Daily Transcript San Diego, CA 
-
-* Database Engineer, Senior ColdFusion programmer, System Administrator for Solaris, Linux, NT/2000 servers. 
-* Co-developed the 3 public web servers serving over 150,000 pages of static content and 50 databases for dynamic content, 30 of which are modified on a daily basis. The largest database contains over a million records and growing. All with nearly 100% uptime. 
-* Personally developed database management system for 50+ databases, where none had existed before. 
-* Researched, developed, tested and implemented Firewall/Proxy server solution with Linux saving over $10,000/year, with better performance. 
-* Upgraded all network wiring and hardware, and implemented new network topology. 
-* Expanded email server from 1 domain to 45 domains. 
-* Created documentation standards for programming code. 
-* Developed a ‘dynamic table’ method and rewrote a database with over 81 tables to one with 5 tables, reducing man-hours by 1/3. 
-* Migrated 600,000 record database from Access to MS SQL, then to MySQL. 
-* Wrote on-line subscription management database and client code using Cold Fusion and PERL, for 3800 customers. Including subscription purchasing (e-commerce), account management, and login security. 
-* Streamlined input process for 30 databases, saving hundreds of man-hours per month. 
-* Created employee database with infinite permission layers for Intranet back-end, including authorization and employee activity logging. 
-
-### Database Application Programmer / Network Consultant <small>January 1995 November 1999</small><br>Independent Contractor San Diego and Santa Barbara, CA
-Specializing in database and cross application solutions. 
-
-* Created interface between Excel and legacy accounting software with VB, cutting input time from 30 minutes to 2 minutes while reducing data entry errors. 2000 
-* Developed client tracking and purchasing record. 1999 
-* Development of National Heavy Equipment Inventory tracking system, linked to ACT! contact database. 1998, 1999 
-* Inter-application code between a custom database and multiple applications (Word, Excel, ACT!). 1997, 1998 
-* Cold Fusion programming for on-line auto-sales company. 1995 
 
 ## References
 
